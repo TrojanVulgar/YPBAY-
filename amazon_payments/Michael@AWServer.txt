@@ -1,0 +1,11 @@
+YPBAY!
+You need change amazon payment
+
+ * SimplePay_IPN.php
+ * @category    Amazon
+ * @package     SimplePay
+ * @copyright   Copyright 2008 Amazon Technologies, Inc.
+ * @link        http://aws.amazon.com
+ * @license     http://aws.amazon.com/apache2.0  Apache License, Version 2.0 
+ * @author      Michael@AWS
+ */

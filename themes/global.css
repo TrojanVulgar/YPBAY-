@@ -1,0 +1,86 @@
+#browse_tab {
+   border-bottom: 1px solid #cccccc;
+   margin: 3px 2px;
+}
+
+#browse_tab ul {
+   padding: 3px 0;
+   margin-left: 100px;
+   margin-bottom: 0;
+   font-size: 12px;
+   font-weight: bold;
+   list-style-type: none;
+}
+
+#browse_tab li {
+   display: inline;
+}
+
+#browse_tab li a {
+   background-color: #e4e4e4;
+   text-decoration: none;
+   padding: 3px 7px;
+   margin-right: 3px;
+   border: 1px solid #cccccc;
+   color: #000;
+}
+
+#browse_tab li a:hover{
+   text-decoration: underline;
+   color: #000;
+}
+
+#browse_tab li.selected{
+   position: relative;
+   color: #000;
+}
+
+#browse_tab li.selected a{
+   background-color: white;
+   border-bottom-color: white;
+   color: #000;
+}
+
+#browse_tab li.selected a:hover{ 
+   text-decoration: none;
+   color: #000;
+}
+
+#browse_found {
+   text-align: center;
+}
+
+.thumbnail_display {
+   margin-right: 5px;
+   float: left;
+   text-align: center;
+}
+
+.thumbnail_display_empty {
+   float: left;
+   margin-right: 0;
+}
+
+.category_box {
+   margin-right: 5px;
+   margin-bottom: 5px;
+   float: left;
+}
+
+.cat_select_proceed {
+	clear: left;
+	text-align: center;
+	width: 150px;
+	padding: 2px;
+	border: 1px solid #cccccc;
+	background-color: #E1E2E4;
+}
+
+.src_input {
+	width: 100%;
+}
+
+.srcbox_title {
+	padding: 4px;
+	text-align: center;
+}
